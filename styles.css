@@ -17,10 +17,10 @@ body{
   }
 
   ul{
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
   }
 
   li{
@@ -123,18 +123,35 @@ h1{
   height: 50px;
   width: 50px;
   border-radius: 50%;
-
+  border-style: solid;
+  border-width: 5px;
+  border-color: #F8F1DE;
+  
 }
+
 .rocket{
   fill: #4FB9E8;
   background-color: #E1F2FA;
   height: 50px;
   width: 50px;
-
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #E1F2FA;
 }
-.central{
+
+.text_1{
+  text-align: justify;
+}
+
+.img_menu{
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+.ul_central{
   display: flex;
-  align-content: space-between;
+  flex-direction: column;
+
 }
-
-
