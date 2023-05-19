@@ -11,24 +11,18 @@ body{
     height: 64px; 
   }
   .navbar_logo {
-    width: 64px;
-    height: 64px;
-    margin: auto;
-  
+    width: 100px;
+    height: 100px;
+   margin-left: 70px;
+    float: right;
   }
 
-  ul{
+  .navbar_info{
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+    text-decoration: none;
+    
   }
 
-  li{
-    display: inline;
-    justify-content: center;
-  }
-  
 
 .dropdown{
     position: relative;
@@ -36,8 +30,7 @@ body{
 }
 
 .dropdown_content{
-  
-   display: none;
+  display: none;
   position: absolute;
   background-color: #f8f6f6;
   min-width: 160px;
@@ -54,13 +47,84 @@ body{
     cursor: pointer;
   }
 
-.download{
-  cursor: pointer;
+ .download_first{
+  background-color: white;
+  color: #F9556E;
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  border-color: #F9556E;
+  font-size: 15px;
+  padding: 5px 10px;
+  transition-duration: 0.5s;
 }  
 
 .dropdown:hover .dropdown_content {display: block;}
-.dropdown:hover .drop_button {background-color: #7fe67f76;}
+.dropdown:hover .drop_button { background-color: #ffffff;}
 .dropdown_content a:hover {background-color: #ddd;}
+
+.button_apple{
+  background-color: #F9556E;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  border-color: #F9556E;
+  font-size: 15px;
+  padding: 10px 30px;
+  transition-duration: 0.5s;
+}
+
+.button_apple:hover{
+  background-color: white;
+  color: #F9556E;
+  border-color:  #F9556E;
+}
+
+.button_play{
+  background-color: #F9556E;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  border-color: #F9556E;
+  margin: 0px;
+  font-size: 15px;
+  padding: 10px 30px;
+  transition-duration: 0.5s;
+}
+
+.button_play:hover {
+  background-color: white;
+  color: #F9556E;
+  border-color:  #F9556E;
+}
+  .title_one{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+  
+  }
+
+  .pheader{
+    text-align: justify;
+    line-height: 1.5;
+  }
+    
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    gap: 30px;
+  }
+
+  li{
+    display: inline;
+    justify-content: center;
+  }
+  
 
 h1{
   display: flex;
@@ -89,6 +153,8 @@ h1{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  max-width: 100%;
+  height: auto;
 }
 
 .iconos_usuario{
@@ -147,12 +213,91 @@ h1{
 
 .img_menu{
   float: left;
-  width: 300px;
+  width: 330px;
   height: 400px;
+  margin-left: 150px;
 }
 
 .ul_central{
   display: flex;
   flex-direction: column;
+}
 
+.title_ct{
+  font-size: 30px;
+  
+}
+
+.lightbox{
+  margin: 100px 0px;
+  background-color: #F9556E;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  border-color: #F9556E;
+  font-size: 15px;
+  padding: 10px 30px;
+  transition-duration: 0.5s;
+}
+
+.lightbox:hover{
+  background-color: white;
+  color: #F9556E;
+  border-color:  #F9556E;
+}
+
+.container_two{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 30px;
+  background-color: #E8EFF6;
+  line-height: 1.5;
+}
+
+.text_2{
+  text-align: justify;
+  line-height: 1.5;
+  
+}
+.img_menu_2{
+  float: right;
+  width: 330px;
+  height: 400px;
+}
+
+.ul_ct{
+  display: flex;
+  flex-direction: column;
+}
+
+.terms{
+  background-color: #F9556E;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  border-color: #F9556E;
+  font-size: 15px;
+  padding: 10px 30px;
+  transition-duration: 0.5s;
+}
+
+.terms:hover{ 
+  background-color: white;
+  color: #F9556E;
+  border-color:  #F9556E;
+}
+
+.privacy{
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  border: solid;
+  border-color: black;
+  font-size: 15px;
+  padding: 10px 30px;
+  transition-duration: 0.5s;
 }
